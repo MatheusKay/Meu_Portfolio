@@ -1,0 +1,140 @@
+@use '../globalStyles/variaveis.scss';
+
+.secao_projetos {
+    padding-top: 12em;
+    background-color: variaveis.$corDasSecoes;
+
+    &_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8em;
+
+        img {
+            width: 80%;
+        }
+    }
+
+    &_desc {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 8em;
+
+        h4 {
+            margin-bottom: 24px;
+            text-align: center;
+            font-weight: normal;
+        }
+    }
+
+    &_nav {
+        width: 60%;
+        margin: 32px auto;
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid variaveis.$corDoTexto;
+        
+        &_botao {
+            margin-bottom: 16px;
+            padding: 16px 44px;
+            font-size: 14px;
+            font-weight: bold;
+            background-color: transparent;
+            border: none;
+            color: variaveis.$corDoTexto;
+
+            &:hover {
+                color: variaveis.$corSecundaria
+            }
+        }
+    }
+
+    &_destaques {
+        padding-top: 5em;
+        
+        
+        &_cont {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            position: relative;
+        }
+
+        &_img {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            top: 20%;
+            left: 0;
+            overflow: hidden;
+            z-index: 1;
+            transition: all 0.3s ease-in-out;
+
+            img {
+                width: 400px;
+                height: 250px;
+                object-fit: cover;
+                transition: all 0.3s ease-in-out;
+
+                &:hover {
+                    left: -100%;
+                }
+            }
+
+        }
+
+        &_desc {
+            position: relative;
+            opacity: 0;
+            padding: 20px;
+            transition: all .3s ease-in-out;
+
+            h4 {
+                text-align: center;
+            }
+        }
+
+        &:hover &_img {
+            transform: translateX(-50%);
+        }
+
+        &:hover &_img img {
+            transform: translateX(50%);
+        }
+
+        &:hover &_desc {
+            opacity: 1;
+            transform: translateX(40%);
+        }
+    }
+
+    &_todos {
+        padding-top: 5em;
+
+        &_img {
+
+            img {
+                width: 200px;
+            }
+        }
+
+        &_desc {
+            
+            h4 {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+
+
+    &--is-disabled {
+        display: none;
+    }
+}

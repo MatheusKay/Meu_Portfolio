@@ -1,0 +1,46 @@
+@use './globalStyles/reset.scss';
+@use './globalStyles/variaveis.scss';
+@use './secoesSite/home.scss';
+@use './secoesSite/sobreMim.scss';
+@use './secoesSite/skills.scss';
+@use './secoesSite/projetos.scss';
+@use './secoesSite/footer.scss';
+
+body {
+    background-color: variaveis.$corDeFundo;
+    color: variaveis.$corDoTexto;
+}
+
+header {
+    padding: 8px;
+    border-bottom: 2px solid variaveis.$corDoTexto;
+
+    .nav-link {
+        color: variaveis.$corDoTexto;
+        
+        &:hover {
+            color: variaveis.$corSecundaria;
+        }
+
+    }
+}
+
+section {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/*Codigo reutilizaveis*/
+
+.titulo_secao {
+    font-size: 32px;
+}
+
+.sub_titulo {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.texto-pequeno {
+    font-size: 14px;
+}

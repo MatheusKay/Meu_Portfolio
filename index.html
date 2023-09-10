@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu portifolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <link rel="stylesheet" href="build/styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="row navbar navbar-expand-lg navbar-expand-md">
+                <!-- <div class="col-md-3 p-0 me-lg-5 d-flex justify-content-between">
+                    <h1>Meu portifolio</h1>
+                    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav-hamburgue">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div> -->
+                <div class="row col-md-12 navbar navbar-expand-lg navbar-expand-md">
+                    <nav class="collapse navbar-collapse" id="nav-hamburgue">
+                        <ul class="nav navbar-nav w-100 justify-content-around">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Home</a>
+                            </li>
+                            <div class="d-lg-flex">
+                                <li class="nav-item me-5">
+                                    <a class="nav-link" href="#">Skills</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Projetos</a>
+                                </li>
+                            </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="secao_home">
+            <div class="row mt-5">
+                <article class="col-md-7">
+                    <div class="secao_home_sobre">
+                        <p class="secao_home_sobre_profissao">Desenvolvedor Front-end</p>
+                        <h2 class="secao_home_sobre_nome">Matheus Kayque</h2>
+                        <p class="texto-pequeno">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore, illo. Eos eaque tempore deleniti in dolores sunt quia voluptate perspiciatis veniam, earum, voluptas placeat aut repellat quisquam reprehenderit mollitia magni.
+                        </p>
+                    </div>
+                    <button class="secao_home_butto_cv" type="button">Baixar Cv</button>
+                </article>
+                <div class="col-md-5 secao_home_img">
+                    <img src="https://via.placeholder.com/350x350" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="secao_sobre">
+            <div class="row">
+                <div class="col-md-5 secao_sobre_foto_perfil">
+                    <img class="secao_sobre_foto_perfil_img" src="https://via.placeholder.com/100x100" alt="Foto minha">
+                    <div class="secao_sobre_foto_perfil_social">
+                        <img src="source/imagens/FlexaImg.png" alt="">
+                        <div class="secao_sobre_foto_perfil_social_link">
+                            <a href="#">
+                                <i class="bi bi-linkedin"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="bi bi-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <article class="col-md-7">
+                    <h3 class="secao_sobre_titulo titulo_secao">Sobre mim</h3>
+                    <p class="secao_sobre_sub_titulo sub_titulo">
+                        Um pouco mais sobre mim
+                    </p>
+                    <p class="texto-pequeno">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum impedit voluptatum ab error ratione, facere incidunt esse atque accusamus nesciunt dolorem, recusandae pariatur sit repellat aperiam eligendi sed saepe!
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, odio doloribus eaque non libero temporibus error suscipit tempora aperiam placeat quod architecto iusto laborum cum veritatis ullam sunt minus quos.
+                    </p>
+                    <p class="texto-pequeno">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam iure doloremque non perferendis vero maxime facere deserunt quisquam. Aspernatur, ullam modi. Iure tempora quisquam cum sunt fuga, iusto ratione?
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ipsa ea tempora alias molestiae voluptatem, quae in id libero numquam hic culpa nemo, assumenda quidem harum mollitia itaque deleniti suscipit.
+                    </p>
+                </article>
+            </div>
+        </section>
+        <section class="secao_skills">
+            <div class="row">
+                <h3 class="titulo_secao text-center">Skills</h3>
+                <p class="secao_skills_sub-titulo">
+                    Algumas das habilidades que adquiri em minha jornada até agora
+                </p>
+            </div>
+            <div class="row secao_skills_skills_carrossel">
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_HTML.png" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_CSS.png" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_javaScript.png" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_BootStrap.png" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_GitHub (2).png" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_SASS.png" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_LESS.png" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_typeScript.png" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_REACT.png" alt="">
+                </div>
+                <div class="col-md-1">
+                    <img class="secao_skills_skills_carrossel_img" src="build/imagens/img_VUE.png" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="secao_projetos">
+            <div class="row">
+                <h3 class="titulo_secao text-center">Projetos</h3>
+                <nav class="secao_projetos_nav">
+                    <button class="secao_projetos_nav_botao" id="projetos_destaque" type="button">Projetos destaques</button>
+                    <button class="secao_projetos_nav_botao" id="todos_projetos" type="button">Todos os projetos</button>
+                </nav>
+            </div>
+            <div class="row secao_projetos_destaques">
+                <div class="secao_projetos_destaques_cont">
+                    <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
+                        <img src="build/imagens/Projeto_Kimetsu.png" alt="">
+                    </div>
+                    <div class="col-md-7 secao_projetos_desc secao_projetos_destaques_desc">
+                        <h4 class="sub_titulo">
+                            BakaComic
+                        </h4>
+                        <p class="texto-pequeno">
+                            O projeto BakaKomik foi uma jornada inspiradora, baseada no design de uma interface de um site para leitura de mangás. Foi um desafio emocionante, especialmente porque estava no início da minha jornada como desenvolvedor web e ainda estava explorando a estruturação de sites. Decidi transformar o incrível design que encontrei online em uma realidade utilizando ferramentas como HTML, CSS, Bootstrap, SASS e Gulp, todas as quais eu estava estudando na época.
+                        </p>
+                        <p class="texto-pequeno">
+                            O design original, criado pela talentosa designer Panda Design (você pode conferir o design original e o perfil dela aqui: <a target="_blank" href="https://dribbble.com/shots/21119006-Baca-Komik-Manga-Hero-Section">Link para o Design Original</a>), desafiou minha habilidade de manter a fidelidade das proporções e a precisão no desenvolvimento, considerando que só tinha acesso à imagem do projeto. No entanto, a determinação prevaleceu e superei esse desafio.
+                        </p>
+                        <p class="texto-pequeno">
+                            Essa experiência me proporcionou não apenas um profundo entendimento da análise de design e criatividade para adaptar designs em websites, mas também a habilidade de garantir precisão e responsividade em projetos futuros, especialmente quando se trata de tamanhos e layouts.
+                        </p>
+                    </div>
+                </div>
+                <div class="secao_projetos_destaques_cont">
+                    <div class="col-md-7 secao_projetos_desc secao_projetos_destaques_desc">
+                        <h4 class="sub_titulo">
+                            Relogio digital
+                        </h4>
+                        <p class="texto-pequeno">
+                            O projeto Relógio Digital se destaca como um dos meus favoritos, pois sua combinação de design e funcionalidade foi um resultado gratificante das habilidades que adquiri ao longo do tempo. Desenvolvido com HTML, CSS e JavaScript puro, a proposta era criar um relógio digital atraente visualmente.
+                        </p>
+                        <p class="texto-pequeno">
+                            Este projeto se destacou não apenas pelo visual, mas também por sua complexa estrutura. Ele consiste em duas telas intercambiáveis por meio de um interruptor. A primeira tela apresenta um relógio digital e um cronômetro altamente preciso, enquanto a segunda tela oferece um calculador de datas que permite calcular quanto tempo falta para o seu próximo aniversário.
+                        </p>
+                        <p class="texto-pequeno">
+                            Embora tenha sido um desafio, já que envolveu um nível significativo de JavaScript, consegui superar essa etapa e aprimorar minhas habilidades de programação, lógica e resolução de problemas. Este projeto representa meu comprometimento em transformar ideias criativas em realidade, além de contribuir para meu desenvolvimento profissional.
+                        </p>
+                    </div>
+                    <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
+                        <img src="build/imagens/Projeto_Relogio_digital.png" alt="">
+                    </div>
+                </div>
+                <div class="secao_projetos_destaques_cont">
+                    <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
+                        <img src="build/imagens/Projeto_CInematic.png" alt="">
+                    </div>
+                    <div class="col-md-7 secao_projetos_desc secao_projetos_destaques_desc">
+                        <h4 class="sub_titulo">
+                            Cinematic Nightmare
+                        </h4>
+                        <p class="texto-pequeno">
+                            O projeto Cinematic Nightmare nasceu como uma plataforma dedicada a entusiastas de filmes de terror, oferecendo recomendações cuidadosamente selecionadas. O site foi concebido em duas páginas distintas e complementares.
+                        </p>
+                        <p class="texto-pequeno">
+                            Na primeira página, apresentamos os filmes de terror em um carrossel dinâmico, exibindo o título, uma breve descrição e imagens representativas. A interatividade ganha vida à medida que você navega pelas imagens, alterando instantaneamente as informações exibidas.
+                        </p>
+                        <p class="texto-pequeno">
+                            A segunda página mergulha mais fundo em cada filme, proporcionando detalhes como título, descrição expandida e a inclusão de trailers. A navegação é facilitada por meio dos links no menu de navegação do site.
+                        </p>
+                        <p class="texto-pequeno">
+                            Toda essa experiência foi desenvolvida com HTML, CSS e JavaScript puro, e a integração dos vídeos do YouTube enriqueceu a interação com o conteúdo. O Cinematic Nightmare representa a combinação de paixão por filmes de terror e habilidades técnicas, criando um espaço cativante para amantes desse gênero cinematográfico
+                        </p>
+                    </div>
+                </div>
+                <div class="secao_projetos_destaques_cont">
+                    <div class="col-md-7 secao_projetos_desc secao_projetos_destaques_desc">
+                        <h4 class="sub_titulo">
+                            Five leaf clover
+                        </h4>
+                        <p class="texto-pequeno">
+                            O projeto Five Leaf Clover ocupa um lugar especial em minha jornada, sendo meu primeiro projeto de grande complexidade e tamanho. Como amante de vinhos, esta loja virtual de vinhos foi um desafio emocionante e uma realização gratificante.
+                        </p>
+                        <p class="texto-pequeno">
+                            A loja apresenta uma estrutura complexa, com seções dedicadas a diferentes tipos de vinhos, como Tintos, Brancos, Rosés, Orgânicos e até vinhos enlatados. Além disso, a categorização por país tornou a experiência do usuário ainda mais envolvente.
+                        </p>
+                        <p class="texto-pequeno">
+                            O projeto foi desenvolvido principalmente com HTML, com adições de CSS para estilização e uma pitada da biblioteca jQuery para validação de formulários no rodapé do site.
+                        </p>
+                        <p class="texto-pequeno">
+                            Five Leaf Clover representa não apenas minha paixão por vinhos, mas também um marco em minha carreira, marcando meu progresso e aprendizado na criação de projetos complexos.
+                        </p>
+                    </div>
+                    <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
+                        <img src="build/imagens/Projeto_Vinhos.png" alt="">
+                    </div>
+                </div>
+                <div class="secao_projetos_destaques_cont">
+                    <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
+                        <img src="build/imagens/Projeto_Tempo_agora.png" alt="">
+                    </div>
+                    <div class="col-md-7 secao_projetos_desc secao_projetos_destaques_desc">
+                        <h4 class="sub_titulo">
+                            Tempo agora
+                        </h4>
+                        <p class="texto-pequeno">
+                            O projeto Tempo Agora marcou uma virada em minha jornada, sendo meu primeiro projeto com o uso do Vue.js e a integração de uma API de previsão do tempo. Foi um desafio significativo que testou diversas habilidades.
+                        </p>
+                        <p class="texto-pequeno">
+                            Trabalhando com Vue, deparei-me com a complexidade da separação de componentes e o uso de props para a transferência de dados entre eles. Além disso, a lógica de programação desempenhou um papel vital na criação de uma estrutura de código limpa e eficiente.
+                        </p>
+                        <p class="texto-pequeno">
+                            Este projeto foi uma experiência intensiva em Vue, representando mais de 60% do desenvolvimento, com toques de CSS e JavaScript para complementar a funcionalidade do Vue. Além disso, integrei uma API de imagens geradas aleatoriamente com base em palavras-chave, aprimorando ainda mais a experiência do usuário. Tempo Agora não apenas expandiu meu conjunto de habilidades, mas também marcou meu comprometimento em criar soluções tecnológicas eficazes
+                        </p>
+                    </div>
+                </div>
+                <div class="secao_projetos_destaques_cont">
+                    <div class="col-md-7 secao_projetos_desc secao_projetos_destaques_desc">
+                        <h4 class="sub_titulo">
+                            IMC Plus
+                        </h4>
+                        <p class="texto-pequeno">
+                            O projeto IMC Plus representa um marco em minha carreira, sendo minha primeira incursão no mundo do React.js. Este projeto consiste em duas telas essenciais.
+                        </p>
+                        <p class="texto-pequeno">
+                            Na primeira tela, desenvolvi um formulário interativo que coleta informações como nome, idade, altura, peso, entre outros. Ao clicar em 'Cadastrar', o site calcula automaticamente o Índice de Massa Corporal (IMC) e prepara os dados para a próxima tela.
+                        </p>
+                        <p class="texto-pequeno">
+                            A segunda tela exibe todas as informações inseridas no formulário e inclui uma representação visual do corpo humano, ajustada de acordo com a seleção de gênero. Além disso, nesta segunda tela, você encontrará uma tabela detalhada com o IMC, o estado do corpo e uma descrição correspondente.
+                        </p>
+                        <p class="texto-pequeno">
+                            Tendo experiência prévia com Vue.js, a transição para React foi mais suave devido à semelhança na estrutura de componentização. No entanto, esta experiência me permitiu aprofundar meu conhecimento em styled-components, uma abordagem que permite componentizar o CSS de forma individual e global. IMC Plus não apenas expandiu minha capacidade técnica, mas também adicionou um valioso conjunto de habilidades em minha jornada de desenvolvimento
+                        </p>
+                    </div>
+                    <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
+                        <img src="build/imagens/Projeto_IMC.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="row secao_projetos_todos secao_projetos--is-disabled">
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-7 secao_projetos_desc secao_projetos_todos_desc">
+                    <h4>
+                        digital e cronometro
+                    </h4>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique ipsam dicta perferendis in. Quae nostrum ullam quis! Accusantium, veniam! Voluptatem necessitatibus deleniti recusandae nihil eos sed rerum non mollitia cupiditate?
+                    </p>
+                </div>
+                <div class="col-md-5 secao_projetos_img secao_projetos_todos_img">
+                    <img src="https://via.placeholder.com/250x250" alt="">
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer_contato">
+                <p class="texto-pequeno">
+                    Contatos: 
+                </p>
+                <a class="footer_contato_link" href="">
+                    <i class="bi bi-envelope"><span>E-mail </span></i>
+                </a>
+                <a class="footer_contato_link" href="">
+                    <i class="bi bi-github"><span> GitHub </span></i>
+                </a>
+                <a class="footer_contato_link" href="">
+                    <i class="bi bi-linkedin"><span> Linkedin </span></i>
+                </a>
+            </div>
+            <div class="row footer_final">
+                <div class="col-md-3">
+                    <h4>Conteudos</h4>
+                    <ul class="footer_final_links">
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Sobre mim</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Habilidades</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">BacaKomik</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Relogio Digital</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Cinematic Nightmare</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Five Leaf Clover</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Tempo Agora</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Imc Plus</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h4>Categorias</h4>
+                    <ul class="footer_final_links">
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Home</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Skills</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Projetos</a>
+                        </li>
+                        <li class="footer_final_links_item">
+                            <a class="footer_final_links_item_link" href="">Contatos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="text-center mb-4">Meu Portfólio em forma de pensamentos</h4>
+                    <p>
+                        Primeiramente, agradeço por visitar meu portfólio e dedicar um momento para ler este breve texto. Para criar este portfólio, me inspirei em elementos que admirei em diversos outros portfólios, combinando-os com minhas próprias ideias, desenvolvidas ao longo da minha jornada como programador. Esta criação envolveu pesquisa e desafios, mas estou satisfeito com o resultado final em design. Espero que você tenha apreciado. by Kayque
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="build/scripts/main.js"></script>
+</body>
+</html>

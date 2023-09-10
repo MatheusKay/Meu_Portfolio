@@ -1,0 +1,76 @@
+@use '../globalStyles/variaveis.scss';
+
+.secao_sobre {
+    padding-top: 12em;
+    background-color: variaveis.$corDasSecoes;
+
+    &_foto_perfil {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        &_img {
+            width: 250px;
+            margin: 0 auto;
+            border-radius: 77px;
+            margin-bottom: 52px;
+        }
+
+        &_social {
+            position: relative;
+            height: 100px;
+
+            img {
+                width: 90%;
+            }
+
+            &_link {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                position: absolute;
+                top: 24px;
+                left: 0;
+
+                a {
+                    height: 54px;
+                    width: 54px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-right: 8px;
+                    border: 1px solid variaveis.$corDoTexto;
+                    border-radius: 50%;
+                    
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: background-color .3s ease-out;
+                        background-color: variaveis.$corDoTexto;
+                    }
+                }
+                
+                i {
+                    font-size: 1.5rem;
+                    color: variaveis.$corDoTexto;
+                    
+                    &:hover {
+                        color: variaveis.$corDeFundo;
+                    }
+                }
+            }
+        }
+    }
+
+    &_titulo {
+        margin-bottom: 16px;
+    }
+
+    &_sub_titulo {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+
+    &_descricao {
+        font-size: 14px;
+    }
+}

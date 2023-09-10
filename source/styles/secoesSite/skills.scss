@@ -1,0 +1,27 @@
+@use '../globalStyles/variaveis.scss';
+
+.secao_skills {
+    padding-top: 12em;
+    background-color: variaveis.$corDasSecoes;
+
+    &_sub-titulo {
+        margin-top: 52px;
+        text-align: center;
+    }
+
+    &_skills_carrossel {
+        width: 80%;
+        margin: 6em auto 0;
+
+
+        &_img {
+            height: 80px;
+        }
+    }
+}
+
+.slick-center {
+    img {
+        height: 110px;
+    }
+}

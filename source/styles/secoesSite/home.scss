@@ -1,0 +1,49 @@
+@use '../globalStyles/variaveis.scss';
+
+.secao_home {  
+    background-color: variaveis.$corDasSecoes;
+
+    &_sobre {
+        height: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &_profissao {
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        &_nome {
+            margin-bottom: 44px;
+            font-size: 44px;
+        }
+
+        &_breve {
+            font-size: 14px;
+        }
+    }
+
+    &_butto_cv {
+        width: 200px;
+        padding: 20px 12px;
+        border: none;
+        border-radius: 16px;
+        background-color: variaveis.$corDeFundo;
+        color: variaveis.$corDoTexto;
+        font-size: 18px;
+        font-weight: bold;
+
+        &:hover {
+            transition: background-color .3s ease-in-out;
+            background-color: variaveis.$corDoTexto;
+            color: variaveis.$corDeFundo;
+        }
+    }
+
+    &_img {
+        padding-top: 3em;
+        display: flex;
+        justify-content: center;
+    }
+}
