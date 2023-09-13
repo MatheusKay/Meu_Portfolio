@@ -30,11 +30,11 @@ function comprimeJs() {
 }
 
 exports.watch = function() {
-    gulp.watch('./source/styles/*.scss', {ignoreInitial: false}, gulp.series(comprimeSass))
+    gulp.watch('./source/styles/secoesSite/*.scss', {ignoreInitial: false}, gulp.series(comprimeSass))
 }
 
 exports.default = function() {
-    gulp.watch('./source/styles/*.scss', {ignoreInitial: false}, gulp.series(comprimeSass))
+    gulp.watch('./source/styles/secoesSite/*.scss', {ignoreInitial: false}, gulp.series(comprimeSass))
     gulp.watch('./source/scripts/*.js', {ignoreInitial: false}, gulp.series(comprimeJs))
     gulp.watch('./source/imagens/*', {ignoreInitial: false}, gulp.series(comprimeImagens))
 }
