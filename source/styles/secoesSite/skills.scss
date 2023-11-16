@@ -25,3 +25,11 @@
         height: 110px;
     }
 }
+
+.slick-prev:before, .slick-next:before {
+    color: variaveis.$corDoTexto;
+}
+
+.slick-next {
+    right: -40px;
+}

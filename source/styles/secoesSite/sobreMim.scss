@@ -41,21 +41,18 @@
                     margin-right: 8px;
                     border: 1px solid variaveis.$corDoTexto;
                     border-radius: 50%;
+                    color: variaveis.$corDoTexto;
                     
                     &:hover {
                         transform: scale(1.1);
                         transition: background-color .3s ease-out;
                         background-color: variaveis.$corDoTexto;
+                        color: variaveis.$corDasSecoes;
                     }
                 }
                 
                 i {
                     font-size: 1.5rem;
-                    color: variaveis.$corDoTexto;
-                    
-                    &:hover {
-                        color: variaveis.$corDeFundo;
-                    }
                 }
             }
         }
