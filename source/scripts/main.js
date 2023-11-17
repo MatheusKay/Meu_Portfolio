@@ -38,3 +38,13 @@ botaoTodos.addEventListener('click', function() {
     secaoTodos.classList.remove('secao_projetos--is-disabled')
     secaoDestaque.classList.add('secao_projetos--is-disabled')
 })
+
+const botaoScroll = document.getElementById('botao-scroll')
+
+window.addEventListener('scroll', function() {
+    if (this.window.scrollY >= "400") {
+        botaoScroll.classList.add('container_button_visivel')
+    } else {
+        botaoScroll.classList.remove('container_button_visivel')
+    }
+})

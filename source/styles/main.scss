@@ -13,7 +13,12 @@ body {
 
 header {
     padding: 8px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(5px);
     border-bottom: 2px solid variaveis.$corDoTexto;
+    z-index: 2;
 
     .nav-link {
         color: variaveis.$corDoTexto;
@@ -28,6 +33,37 @@ header {
 section {
     padding-left: 3em;
     padding-right: 3em;
+}
+
+.container_button {
+    display: none;
+    position: fixed; 
+    bottom: 40px;
+    right: 90px;
+
+    &_visivel {
+        display: block;
+    }
+
+    a {
+        padding: 16px;
+        text-decoration: none;
+        border-radius: 50%;
+        border: 2px solid variaveis.$corDoTexto;
+        color: variaveis.$corDoTexto;
+        cursor: pointer;
+
+        i {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        &:hover {
+            transition: background-color .3s ease-in-out;
+            background-color: variaveis.$corDoTexto;
+            color: variaveis.$corDeFundo;
+        }
+    }
 }
 
 /*Codigo reutilizaveis*/
