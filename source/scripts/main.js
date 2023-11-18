@@ -15,7 +15,7 @@ $('.secao_skills_skills_carrossel').slick({
         {
             breakpoint: 480,
             settings: {
-                arrows: false,
+                arrows: true,
                 centerMode: true,
                 centerPadding: '20px',
                 slidesToShow: 1

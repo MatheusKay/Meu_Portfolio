@@ -60,6 +60,10 @@
 
     &_titulo {
         margin-bottom: 16px;
+
+        @media screen and (max-width: 767px) {
+            margin-top: 24px;
+        }
     }
 
     &_sub_titulo {
@@ -69,5 +73,9 @@
 
     &_descricao {
         font-size: 14px;
+    }
+
+    @media screen and (max-width: 767px) {
+        padding-top: 5em;
     }
 }

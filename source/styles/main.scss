@@ -28,11 +28,32 @@ header {
         }
 
     }
+
+    .container-menu {
+        padding: 0 48px;
+        margin-bottom: 16px;
+        display: none;
+    }
+
+    @media screen and (max-width: 767px) {
+        .navbar-collapse {
+            padding: 0 48px;
+        }
+
+        .container-menu {
+            display: block;
+        }
+    }
 }
 
 section {
     padding-left: 3em;
     padding-right: 3em;
+
+    @media screen and (max-width: 767px) {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
 }
 
 .container_button {

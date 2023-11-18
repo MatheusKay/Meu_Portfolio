@@ -32,4 +32,13 @@
 
 .slick-next {
     right: -40px;
+
+    @media screen and (max-width: 767px) {
+        right: -25px;
+    }
+}
+
+.slick-initialized .slick-slide {
+    display: flex;
+    justify-content: center;
 }
