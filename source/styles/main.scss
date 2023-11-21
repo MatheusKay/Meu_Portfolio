@@ -62,6 +62,10 @@ section {
     bottom: 40px;
     right: 90px;
 
+    @media screen and (max-width: 767px) {
+        right: 20px;
+    }
+
     &_visivel {
         display: block;
     }
@@ -100,4 +104,11 @@ section {
 
 .texto-pequeno {
     font-size: 14px;
+}
+
+.cont_img_text {
+    // margin-bottom: 8em;
+    display: block;
+    font-size: 12px;
+    text-align: center;
 }

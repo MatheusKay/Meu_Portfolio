@@ -89,6 +89,7 @@
                     align-items: flex-end;
                     position: absolute;
                     bottom: 0;
+                    left: 0;
                     opacity: 0;
                     background-color: rgba( 0, 0, 0, .8);
                     color: variaveis.$corDoTexto;
@@ -110,7 +111,7 @@
                 }
             }
 
-            @media screen and (max-width: 767px) {
+            @media screen and (max-width: 1024px) {
                 display: block;
             }
         }
@@ -135,9 +136,13 @@
                 &:hover {
                     left: -100%;
                 }
+
+                @media screen and (max-width: 1024px) {
+                    height: 100%;
+                }
             }
 
-            @media screen and (max-width: 767px) {
+            @media screen and (max-width: 1024px) {
                 position: unset;
             }
 
@@ -153,18 +158,18 @@
                 text-align: center;
             }
 
-            @media screen and (max-width: 767px) {
+            @media screen and (max-width: 1024px) {
                 opacity: 1;
             }
         }
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1024px) {
             &:hover &_img {
                 transform: translateX(-30%);
             }
         }
 
-        @media screen and (min-width: 768px) {
+        @media screen and (min-width: 1024px) {
             &:hover &_desc {
                 opacity: 1;
                 transform: translateX(40%);
@@ -185,10 +190,18 @@
                 img {
                     width: 400px;
                     object-fit: cover;
+
+                    @media screen and (max-width: 767px) {
+                        width: 319px;
+                    }
                 }
 
-                @media screen and (max-width:767px) {
-                    position: unset
+                @media screen and (max-width: 767px) {
+                    position: unset;
+                }
+
+                @media screen and (min-width: 768px) and (max-width: 1024px) {
+                    position: relative;
                 }
             }
         }
@@ -201,6 +214,18 @@
 
             p {
                 font-size: 14px;
+            }
+        }
+
+        .row {
+            @media screen and (max-width: 1024px) {
+                flex-direction: column;
+            }
+        }
+
+        .flex-direction {
+            @media screen and (max-width: 1024px) {
+                flex-direction: column-reverse;
             }
         }
     }

@@ -12,6 +12,10 @@
         justify-content: center;
         border-bottom: 2px solid variaveis.$corDoTexto;
 
+        @media screen and (max-width: 767px) {
+            flex-wrap: wrap;
+        }
+
         p {
             font-weight: bold;
         }
