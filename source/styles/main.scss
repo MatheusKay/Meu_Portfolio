@@ -108,7 +108,9 @@ section {
 
 .cont_img_text {
     // margin-bottom: 8em;
+    padding: 8px;
     display: block;
     font-size: 12px;
     text-align: center;
+    border-top: 1px solid variaveis.$corDoTexto;
 }

@@ -23,25 +23,25 @@
                     <nav class="collapse navbar-collapse" id="nav-hamburgue">
                         <ul class="nav navbar-nav w-100 justify-content-around">
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Home</a>
+                                <a class="nav-link" href="#home">Home</a>
                             </li>
                             <div class="d-lg-flex">
                                 <li class="nav-item me-5">
-                                    <a class="nav-link" href="#">Skills</a>
+                                    <a class="nav-link" href="#skills">Skills</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Projetos</a>
+                                    <a class="nav-link" href="#projetos">Projetos</a>
                                 </li>
                             </div>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contato</a>
+                                <a class="nav-link" href="#contatos">Contato</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </header>
-        <section class="secao_home">
+        <section id="home" class="secao_home">
             <div class="row mt-5">
                 <article class="col-md-7">
                     <div class="secao_home_sobre">
@@ -58,7 +58,7 @@
                 </div>
             </div>
         </section>
-        <section class="secao_sobre">
+        <section id="sobre-mim" class="secao_sobre">
             <div class="row">
                 <div class="col-md-5 secao_sobre_foto_perfil">
                     <img class="secao_sobre_foto_perfil_img" src="https://via.placeholder.com/100x100" alt="Foto minha">
@@ -83,17 +83,15 @@
                         Um pouco mais sobre mim
                     </p>
                     <p class="texto-pequeno">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut cum impedit voluptatum ab error ratione, facere incidunt esse atque accusamus nesciunt dolorem, recusandae pariatur sit repellat aperiam eligendi sed saepe!
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Saepe, odio doloribus eaque non libero temporibus error suscipit tempora aperiam placeat quod architecto iusto laborum cum veritatis ullam sunt minus quos.
+                        Prazer, chamo-me Matheus e sou um desenvolvedor Front-end. Tenho 19 anos e iniciei na programação há mais ou menos 1 ano. Nesse período de experiência trabalhando com programação, desenvolvi diversas habilidades e especializações em várias tecnologias, como, por exemplo, JavaScript, React, Bootstrap, e outras diversas tecnologias que você pode conferir abaixo. Graças a essas habilidades e tecnologias, pude desenvolver projetos incríveis que muito me orgulham, como o "Trevo Gastronômico", um site inspirado no iFood. Nele, você pode encontrar pratos e diversos restaurantes, além de ter um design único e elegante. Outro projeto é o "Tempo Agora", um site que informa a temperatura em qualquer lugar do mundo, além de apresentar a velocidade do vento e a umidade do local. Todas essas informações são apresentadas de forma elegante, atraente e interativa. Além destes, há muitos outros projetos que você pode encontrar aqui mesmo no meu portfólio, todos com um design único e que testaram bastante minhas habilidades.
                     </p>
                     <p class="texto-pequeno">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam iure doloremque non perferendis vero maxime facere deserunt quisquam. Aspernatur, ullam modi. Iure tempora quisquam cum sunt fuga, iusto ratione?
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. At ipsa ea tempora alias molestiae voluptatem, quae in id libero numquam hic culpa nemo, assumenda quidem harum mollitia itaque deleniti suscipit.
+                        Como pode ver, sou mais um amante por programação e tenho tudo para me tornar um incrível programador. Acredito que, independente do problema, podemos criar soluções elegantes e funcionais. Mesmo tendo uma formação pela EBAC, estou buscando ter uma evolução contínua. Nesse momento, estou totalmente focado em React, fazendo outros cursos para me tornar um futuro especialista nessa área. Bom, espero que minha paixão e minha dedicação por programação tenham cativado você e proporcionado um ótimo primeiro contato.
                     </p>
                 </article>
             </div>
         </section>
-        <section class="secao_skills">
+        <section id="skills" class="secao_skills">
             <div class="row">
                 <h3 class="titulo_secao text-center">Skills</h3>
                 <p class="secao_skills_sub-titulo">
@@ -133,7 +131,7 @@
                 </div>
             </div>
         </section>
-        <section class="secao_projetos">
+        <section id="projetos" class="secao_projetos">
             <div class="row">
                 <h3 class="titulo_secao text-center">Projetos</h3>
                 <nav class="secao_projetos_nav">
@@ -145,7 +143,10 @@
                 <div class="secao_projetos_destaques_cont">
                     <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
                         <div class="secao_projetos_destaques_cont_img">
-                            <img src="build/imagens/Projeto_Kimetsu.png" alt="">
+                            <div>
+                                <img src="build/imagens/Projeto_Kimetsu.png" alt="">
+                            </div>
+                            <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://projeto-ebac-tbt9.vercel.app">
                                     <i class="bi bi-laptop"> BacaKomik</i>
@@ -156,7 +157,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <span class="cont_img_text">Clique sobre a imagem para acessar os links</span> -->
                     <div class="col-lg-7 secao_projetos_desc secao_projetos_destaques_desc">
                         <h4 class="sub_titulo">
                             BakaComic
@@ -175,7 +175,10 @@
                 <div class="secao_projetos_destaques_cont">
                     <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
                         <div class="secao_projetos_destaques_cont_img">
-                            <img src="build/imagens/Projeto_Relogio_digital.png" alt="">
+                            <div>
+                                <img src="build/imagens/Projeto_Relogio_digital.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://aniver-timer.vercel.app ">
                                     <i class="bi bi-laptop"> Relógio Digital</i>
@@ -204,7 +207,10 @@
                 <div class="secao_projetos_destaques_cont">
                     <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
                         <div class="secao_projetos_destaques_cont_img">
-                            <img src="build/imagens/Projeto_CInematic.png" alt="">
+                            <div>
+                                <img src="build/imagens/Projeto_CInematic.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://cinematic-nightmare.vercel.app">
                                     <i class="bi bi-laptop"> Cinematic Nightmare</i>
@@ -236,7 +242,10 @@
                 <div class="secao_projetos_destaques_cont">
                     <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
                         <div class="secao_projetos_destaques_cont_img">
-                            <img src="build/imagens/Projeto_Vinhos.png" alt="">
+                            <div>
+                                <img src="build/imagens/Projeto_Vinhos.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://five-leaf-clover.vercel.app">
                                     <i class="bi bi-laptop"> Five leaf clover</i>
@@ -268,7 +277,10 @@
                 <div class="secao_projetos_destaques_cont">
                     <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
                         <div class="secao_projetos_destaques_cont_img">
-                            <img src="build/imagens/Projeto_Tempo_agora.png" alt="">
+                            <div>
+                                <img src="build/imagens/Projeto_Tempo_agora.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://tempo-agora-mu.vercel.app">
                                     <i class="bi bi-laptop"> Tempo agora</i>
@@ -297,7 +309,10 @@
                 <div class="secao_projetos_destaques_cont">
                     <div class="col-md-5 secao_projetos_img secao_projetos_destaques_img">
                         <div class="secao_projetos_destaques_cont_img">
-                            <img src="build/imagens/Projeto_Trevo_Gastronomico.png" alt="">
+                            <div>
+                                <img src="build/imagens/Projeto_Trevo_Gastronomico.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://trevo-gastronomico.vercel.app">
                                     <i class="bi bi-laptop"> Trevo Gastronomico</i>
@@ -327,11 +342,14 @@
                     </div>
                 </div>
             </div>
-            <div class="row secao_projetos_todos secao_projetos--is-disabled">
+            <div class="secao_projetos_todos secao_projetos--is-disabled">
                 <div class="row">
-                    <div class="col-lg-5 secao_projetos_img secao_projetos_todos_img">
+                    <div class="col-lg-5 p-0 secao_projetos_img secao_projetos_todos_img">
                         <div class="secao_projetos_todos_img_cont">
-                            <img src="source/imagens/Projeto_Lista_Contatos.png" alt="">
+                            <div>
+                                <img src="source/imagens/Projeto_Lista_Contatos.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://seus-contatos.vercel.app">
                                     <i class="bi bi-laptop"> Seus Contatos</i>
@@ -369,9 +387,12 @@
                             Essa jornada breve, mas intensa, contribuiu de maneira significativa para minha evolução profissional. Essa breve imersão no Vue não só aprimorou meu entendimento prático, mas também deixou uma marca valiosa em minha abordagem a projetos futuros.
                         </p>
                     </div>
-                    <div class="col-lg-5 secao_projetos_img secao_projetos_todos_img">
+                    <div class="col-lg-5 p-0 secao_projetos_img secao_projetos_todos_img">
                         <div class="secao_projetos_todos_img_cont">
-                            <img src="source/imagens/Projeto_Tarefas_Vue.png" alt="">
+                            <div>
+                                <img src="source/imagens/Projeto_Tarefas_Vue.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://lista-de-tarefas-vue.vercel.app">
                                     <i class="bi bi-laptop"> Lista de tarefas</i>
@@ -384,9 +405,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-5 secao_projetos_img secao_projetos_todos_img">
+                    <div class="col-lg-5 p-0 secao_projetos_img secao_projetos_todos_img">
                         <div class="secao_projetos_todos_img_cont">
-                            <img src="source/imagens/Projeto_Calc_medias.png" alt="">
+                            <div>
+                                <img src="source/imagens/Projeto_Calc_medias.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://calculador-para-medias.vercel.app">
                                     <i class="bi bi-laptop"> Calculador de medias</i>
@@ -421,9 +445,12 @@
                             Comprometi-me a usar 110% do meu conhecimento, com cerca de 70% concentrados em JavaScript. Admito que essa experiência foi uma das mais enriquecedoras que vivenciei. Nada supera um desafio acompanhado por alguns erros para intensificar a aprendizagem em uma determinada área. Essa jornada não apenas aprimorou minha habilidade de analisar erros, mas também fortaleceu minha capacidade de apresentar soluções criativas para superá-los.
                         </p>
                     </div>
-                    <div class="col-lg-5 secao_projetos_img secao_projetos_todos_img">
+                    <div class="col-lg-5 p-0 secao_projetos_img secao_projetos_todos_img">
                         <div class="secao_projetos_todos_img_cont">
-                            <img src="source/imagens/Projeto_Cadastro_funcionario.png" alt="">
+                            <div>
+                                <img src="source/imagens/Projeto_Cadastro_funcionario.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://cadastrar-funcionarios.vercel.app">
                                     <i class="bi bi-laptop"> Cadastrar Funcionario</i>
@@ -436,9 +463,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-5 secao_projetos_img secao_projetos_todos_img">
+                    <div class="col-lg-5 p-0 secao_projetos_img secao_projetos_todos_img">
                         <div class="secao_projetos_todos_img_cont">
-                            <img src="source/imagens/Projeto_Jogo_Maior.png" alt="">
+                            <div>
+                                <img src="source/imagens/Projeto_Jogo_Maior.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://black-game.vercel.app">
                                     <i class="bi bi-laptop"> Black Games</i>
@@ -476,9 +506,12 @@
                             O resultado alcançado foi particularmente gratificante, considerando minha inexperiência com as tecnologias e ferramentas utilizadas. Conseguir realizar algo incrível mesmo sem dominar completamente essas ferramentas destacou-se como um marco positivo em minha jornada.
                         </p>
                     </div>
-                    <div class="col-lg-5 secao_projetos_img secao_projetos_todos_img">
+                    <div class="col-lg-5 p-0 secao_projetos_img secao_projetos_todos_img">
                         <div class="secao_projetos_todos_img_cont">
-                            <img src="source/imagens/Projeto_Pokedex.png" alt="">
+                            <div>
+                                <img src="source/imagens/Projeto_Pokedex.png" alt="">
+                                <span class="cont_img_text">Clique sobre a imagem para acessar os links</span>
+                            </div>
                             <div class="secao_projetos_destaques_cont_img_links">
                                 <a target="_blank" href="https://black-pokedex.vercel.app">
                                     <i class="bi bi-laptop"> Black Pokedex</i>
@@ -498,7 +531,7 @@
             </a>
         </div>
         <footer class="footer">
-            <div class="footer_contato">
+            <div id="contatos" class="footer_contato">
                 <p class="texto-pequeno">
                     Contatos: 
                 </p>
